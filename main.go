@@ -15,6 +15,7 @@ import (
 	deferss "myapp/defer"
 	errorss "myapp/error"
 	function1 "myapp/function"
+	gennerictype "myapp/gennericType"
 	interfaces "myapp/interface"
 	"myapp/json"
 	"myapp/loop"
@@ -478,6 +479,11 @@ Weight: 60 kg`)
 	fmt.Println("Time")
 	times.PrintCurrentTime() // Call the PrintCurrentTime function from times package
 	times.TimeExample()      // Call the TimeExample function from times package
+
+	//
+	fmt.Println(" ")
+	fmt.Println("Generic Type")
+	gennerictype.PrintAddResults() // Call the PrintAddResults function from gennerictype package
 
 	//
 	fmt.Println(" ")
