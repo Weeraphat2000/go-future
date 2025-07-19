@@ -24,6 +24,7 @@ import (
 	"myapp/pointer"
 	"myapp/slice"
 	structs1 "myapp/struct"
+	"myapp/times"
 )
 
 // TODO: init function จะถูกเรียกอัตโนมัติเมื่อโปรแกรมเริ่มทำงาน
@@ -471,6 +472,12 @@ Weight: 60 kg`)
 	fmt.Println(" ")
 	fmt.Println("Defer")
 	deferss.DeferExample()
+
+	//
+	fmt.Println(" ")
+	fmt.Println("Time")
+	times.PrintCurrentTime() // Call the PrintCurrentTime function from times package
+	times.TimeExample()      // Call the TimeExample function from times package
 
 	//
 	fmt.Println(" ")
