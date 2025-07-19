@@ -146,13 +146,13 @@ Weight: 60 kg`)
 
 	// %#v for everything
 	fmt.Println(" ")
-	fmt.Println(`Workshop with %#v for printing any value`)
+	fmt.Printf("Workshop with %%#v for printing any value\n")
 	fmt.Printf(
 		" String: %#v\n int: %#v\n float64: %#v\n bool: %#v\n rune: %#v\n", "Hello, World!",
 		42, 3.14, true, 'A')
 	// %T for type
 	fmt.Println(" ")
-	fmt.Println("Workshop with %T for printing type of value")
+	fmt.Printf("Workshop with %%T for printing type of value\n")
 	fmt.Printf("Type of string: %T\n", "Hello, World!")
 	fmt.Printf("Type of int: %T\n", 42)
 	fmt.Printf("Type of float64: %T\n", 3.14)
